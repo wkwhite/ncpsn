@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+/*body {
+  background-image: url("a.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: white;
+}*/
+
+.jumbotron {
+  background-image: url("x.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  color: #333333;
+  text-shadow:  0px 2px 3px rgba(0,0,0,0.2),
+                0px 4px 13px rgba(240,230,170,0.6),
+                0px 9px 23px rgba(0,0,0,0.1);
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 65%;
+  border-bottom: 1px solid #f5ebff;
+}
+
+.navbar {
+  /*background: #FDDAF4;*/
+  background: #444444;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.nav.navbar-nav li a {
+color: #f5ebff;
+}
+
+.nav.navbar-nav li a:hover {
+color: #b27de3;
+}
+
+
+.active a {
+color: #dddddd;
+background: #f5ebff !important;
+}
+
+.navbar-header a {
+  background: #444444 !important;
+  color: #f5ebff !important;
+}
+
+
+/*li.active {
+  background: #d952b7 !important;
+}*/
+
+/*
+#content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow:  0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}*/
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.abt {
+  border-right: 1px solid black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    /*border-top: 1px solid #ccc;*/
+    /*margin: 1em 0;*/
+    margin-bottom: 0;
+    padding: 0;
+    /*color: #f5ebff;*/
+    border-top: 1px solid rgba(150,88,207,0.2);
+}
+
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-style: italic;
+    border-left: 5px solid #9658cf;
+}
+
+h2 {
+  color: #9658cf;
+  font-variant: small-caps;
+}
+
+.headd {
+  /*background: #f5ebff;*/
+  color: #444444;
+  /*margin-top: 5px;*/
+  margin-bottom: 0;
+  width: 100
+  /*border-top: 5px solid #444444;*/
+  /*padding: 1% 0% 1% 12%;*/
+  padding: 1% 0% 1% 0%;
+  /*border-bottom: 1px solid #444444;*/
+  /*background-image: linear-gradient(to bottom, #444444 0%, #FFFFFF 100%);*/
+
+}
+
+/*#content {
+  margin-top: 0px;
+  border-left: 1px solid rgba(150,88,207,0.2);
+  border-right: 1px solid rgba(150,88,207,0.2);
+  background-color: rgba(50,55,55,0.03);
+}*/
+
+/*#signs {
+  padding-bottom: 75px;
+}*/
+
+.source {
+  font-size: .7em;
+}
